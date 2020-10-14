@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9933206.chunk.css",
-    "main.js": "/static/js/main.30cbc065.chunk.js",
-    "main.js.map": "/static/js/main.30cbc065.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4126d0af.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4126d0af.js.map",
-    "static/js/2.8c044adb.chunk.js": "/static/js/2.8c044adb.chunk.js",
-    "static/js/2.8c044adb.chunk.js.map": "/static/js/2.8c044adb.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8a8c799d4fb13c66cf3d961f0349564f.js": "/precache-manifest.8a8c799d4fb13c66cf3d961f0349564f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d9933206.chunk.css.map": "/static/css/main.d9933206.chunk.css.map",
-    "static/js/2.8c044adb.chunk.js.LICENSE.txt": "/static/js/2.8c044adb.chunk.js.LICENSE.txt"
+    "main.css": "/pokemon/static/css/main.d9933206.chunk.css",
+    "main.js": "/pokemon/static/js/main.30cbc065.chunk.js",
+    "main.js.map": "/pokemon/static/js/main.30cbc065.chunk.js.map",
+    "runtime-main.js": "/pokemon/static/js/runtime-main.89aedc36.js",
+    "runtime-main.js.map": "/pokemon/static/js/runtime-main.89aedc36.js.map",
+    "static/js/2.8c044adb.chunk.js": "/pokemon/static/js/2.8c044adb.chunk.js",
+    "static/js/2.8c044adb.chunk.js.map": "/pokemon/static/js/2.8c044adb.chunk.js.map",
+    "index.html": "/pokemon/index.html",
+    "precache-manifest.0bda09422f2b8bcfdee43bbf92eb80fb.js": "/pokemon/precache-manifest.0bda09422f2b8bcfdee43bbf92eb80fb.js",
+    "service-worker.js": "/pokemon/service-worker.js",
+    "static/css/main.d9933206.chunk.css.map": "/pokemon/static/css/main.d9933206.chunk.css.map",
+    "static/js/2.8c044adb.chunk.js.LICENSE.txt": "/pokemon/static/js/2.8c044adb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4126d0af.js",
+    "static/js/runtime-main.89aedc36.js",
     "static/js/2.8c044adb.chunk.js",
     "static/css/main.d9933206.chunk.css",
     "static/js/main.30cbc065.chunk.js"
