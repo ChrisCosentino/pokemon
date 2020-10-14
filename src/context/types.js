@@ -1,0 +1,3 @@
+export const SEARCH_POKEMON = 'SEARCH_POKEMON';
+export const SET_ERROR = 'SET_ERROR';
+export const SET_SELECTED_POKEMON = 'SET_SELECTED_POKEMON';
