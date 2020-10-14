@@ -3,6 +3,8 @@ import { Redirect } from 'react-router-dom';
 
 import PokemonContext from '../../context/pokemon/pokemonContext';
 
+import DetailRow from '../layout/DetailRow';
+
 const PokeDetails = () => {
   const pokemonContext = useContext(PokemonContext);
   const { selectedPokemon, setSelectedPokemon } = pokemonContext;
@@ -29,32 +31,12 @@ const PokeDetails = () => {
       <div className='details-info'>
         <h1 className='detail'>Details</h1>
         <div className='detail-table'>
-          <div>
-            <span className='row-title'>Type:</span>
-            <span>
-              {selectedPokemon.types.map((type, index) => (
-                <div key={index}>{type}</div>
-              ))}
-            </span>
-          </div>
-          <div>
-            <span className='row-title'>Rarity:</span>
-            <span>{selectedPokemon.rarity}</span>
-          </div>
-          <div>
-            <span className='row-title'>Series:</span>
-            <span>{selectedPokemon.series}</span>
-          </div>
-          <div>
-            <span className='row-title'>Set:</span>
-            <span>{selectedPokemon.set}</span>
-          </div>
-
+          <DetailRow title='Type' types={selectedPokemon.types} />
+          <DetailRow title='Rarity' val={selectedPokemon.rarity} />
+          <DetailRow title='Series' val={selectedPokemon.series} />
+          <DetailRow title='Set' val={selectedPokemon.set} />
           {selectedPokemon.evolvesFrom && (
-            <div>
-              <span className='row-title'>Evolves from:</span>
-              <span>{selectedPokemon.evolvesFrom}</span>
-            </div>
+            <DetailRow title='Evolves from' val={selectedPokemon.evolvesFrom} />
           )}
 
           <button className='back-btn' onClick={handleBackBtn}>

@@ -7,12 +7,6 @@
 .container {
   padding: 1rem;
   text-align: center;
-  /* display: grid;
-  grid-template-rows: 1fr 1fr;
-  width: 100%;
-  place-items: center;
-  gap: 2rem;
-  text-align: center; */
 }
 .title {
   margin-bottom: 1rem;
@@ -129,4 +123,10 @@ form {
 
 .row-title {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 635px) {
+  .poke-details {
+    grid-template-columns: 1fr;
+  }
 }

@@ -13,7 +13,7 @@ const App = () => {
     <PokemonState>
       <Router>
         <Switch>
-          <Route path='/p/:name' component={PokeDetails} />
+          <Route path='/p/:id' component={PokeDetails} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>
